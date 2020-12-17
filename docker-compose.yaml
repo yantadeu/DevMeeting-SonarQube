@@ -1,0 +1,23 @@
+version: "3.4"
+
+networks:
+  sonarqube-network:
+    driver: "bridge"
+
+services:
+  devmeeting-webapi:
+    image: sonarqube-webapi
+    container_name: sonarqube-webapi
+    build:
+      context: ./
+      dockerfile: DevMeeting.API/Dockerfile
+    depends_on:
+      - sonarqube
+    networks:
+      - sonarqube-network
+
+  sonarqube:
+    image: sonarqube
+    container_name: sonarqube
+    networks:
+      - sonarqube-network

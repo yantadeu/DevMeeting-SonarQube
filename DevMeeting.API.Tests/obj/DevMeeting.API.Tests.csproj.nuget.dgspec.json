@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yantadeu/Development/DevMeeting/DevMeeting.API.Tests/DevMeeting.API.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/yantadeu/Development/DevMeeting/DevMeeting.API.Tests/DevMeeting.API.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yantadeu/Development/DevMeeting/DevMeeting.API.Tests/DevMeeting.API.Tests.csproj",
+        "projectName": "DevMeeting.API.Tests",
+        "projectPath": "/Users/yantadeu/Development/DevMeeting/DevMeeting.API.Tests/DevMeeting.API.Tests.csproj",
+        "packagesPath": "/Users/yantadeu/.nuget/packages/",
+        "outputPath": "/Users/yantadeu/Development/DevMeeting/DevMeeting.API.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/yantadeu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/yantadeu/Development/DevMeeting/DevMeeting.API/DevMeeting.API.csproj": {
+                "projectPath": "/Users/yantadeu/Development/DevMeeting/DevMeeting.API/DevMeeting.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "coverlet.msbuild": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yantadeu/Development/DevMeeting/DevMeeting.API/DevMeeting.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yantadeu/Development/DevMeeting/DevMeeting.API/DevMeeting.API.csproj",
+        "projectName": "DevMeeting.API",
+        "projectPath": "/Users/yantadeu/Development/DevMeeting/DevMeeting.API/DevMeeting.API.csproj",
+        "packagesPath": "/Users/yantadeu/.nuget/packages/",
+        "outputPath": "/Users/yantadeu/Development/DevMeeting/DevMeeting.API/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/yantadeu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
